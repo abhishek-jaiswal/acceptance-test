@@ -1,0 +1,38 @@
+{
+  "name": "todobackend_accetance_test",
+  "version": "1.0.0",
+  "description": "Todobackend Acceptance Tests for learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishek-jaiswal/todobackend.git"
+  },
+  "keywords": [
+    "acceptance",
+    "test",
+    "node",
+    "chai",
+    "mocha",
+    "javascript",
+    "frontend"
+  ],
+  "author": "abhishek jaiswal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishek-jaiswal/todobackend/issues"
+  },
+  "homepage": "https://github.com/abhishek-jaiswal/todobackend#readme",
+  "dependencies": {
+    "bluebird": "^3.1.5",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "mocha": "^2.4.5",
+    "mocha-jenkins-reporter": "^0.1.9",
+    "superagent": "^1.7.2",
+    "superagent-promise": "^1.1.0"
+  }
+
+}
